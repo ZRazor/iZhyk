@@ -15,7 +15,6 @@
 		31EB99E11A00C9A900ACF27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99E01A00C9A900ACF27D /* main.m */; };
 		31EB99E41A00C9A900ACF27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99E31A00C9A900ACF27D /* AppDelegate.m */; };
 		31EB99EA1A00C9A900ACF27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EB99E81A00C9A900ACF27D /* Main.storyboard */; };
-		31EB99EF1A00C9A900ACF27D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EB99ED1A00C9A900ACF27D /* LaunchScreen.xib */; };
 		31EB99FB1A00C9A900ACF27D /* iZhykTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99FA1A00C9A900ACF27D /* iZhykTests.m */; };
 		31EB9A071A00CA0600ACF27D /* ZTZhyk.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB9A061A00CA0600ACF27D /* ZTZhyk.m */; };
 		31F2A7881A2895CC00AA0881 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F2A7871A2895CC00AA0881 /* Images.xcassets */; };
@@ -55,7 +54,6 @@
 		31EB99E21A00C9A900ACF27D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31EB99E31A00C9A900ACF27D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		31EB99E91A00C9A900ACF27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		31EB99EE1A00C9A900ACF27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		31EB99F41A00C9A900ACF27D /* iZhykTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iZhykTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB99F91A00C9A900ACF27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EB99FA1A00C9A900ACF27D /* iZhykTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iZhykTests.m; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				31EB99E21A00C9A900ACF27D /* AppDelegate.h */,
 				31EB99E31A00C9A900ACF27D /* AppDelegate.m */,
 				31EB99E81A00C9A900ACF27D /* Main.storyboard */,
-				31EB99ED1A00C9A900ACF27D /* LaunchScreen.xib */,
 				31F2A7871A2895CC00AA0881 /* Images.xcassets */,
 				31EB99DE1A00C9A900ACF27D /* Supporting Files */,
 			);
@@ -320,7 +317,6 @@
 				31EB99EA1A00C9A900ACF27D /* Main.storyboard in Resources */,
 				31F2A7881A2895CC00AA0881 /* Images.xcassets in Resources */,
 				31F347F51A245CA7004A2045 /* logo@2x.png in Resources */,
-				31EB99EF1A00C9A900ACF27D /* LaunchScreen.xib in Resources */,
 				31F347F61A245CA7004A2045 /* update_captcha@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,14 +410,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		31EB99ED1A00C9A900ACF27D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31EB99EE1A00C9A900ACF27D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -512,6 +500,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -526,6 +515,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
