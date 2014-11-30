@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		311395171A221AB20048C5F4 /* ZTRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 311395161A221AB20048C5F4 /* ZTRequester.m */; };
-		311EBF031A23F182000CC067 /* ZTLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 311EBF021A23F182000CC067 /* ZTLoginButton.m */; };
-		311EBF061A23F28A000CC067 /* ZTLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = 311EBF051A23F28A000CC067 /* ZTLoginField.m */; };
-		311EBF091A23F3B5000CC067 /* ZTPasswordField.m in Sources */ = {isa = PBXBuildFile; fileRef = 311EBF081A23F3B5000CC067 /* ZTPasswordField.m */; };
-		311EBF0C1A23F432000CC067 /* ZTCaptchaField.m in Sources */ = {isa = PBXBuildFile; fileRef = 311EBF0B1A23F432000CC067 /* ZTCaptchaField.m */; };
+		3187DB6A1A2AC3B50041AC98 /* ZTSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB691A2AC3B50041AC98 /* ZTSettingsController.m */; };
+		3187DB6D1A2AC3C90041AC98 /* ZTChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB6C1A2AC3C90041AC98 /* ZTChatController.m */; };
+		3187DB701A2AC3DC0041AC98 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3187DB6E1A2AC3DC0041AC98 /* logo@2x.png */; };
+		3187DB711A2AC3DC0041AC98 /* update_captcha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3187DB6F1A2AC3DC0041AC98 /* update_captcha@2x.png */; };
+		3187DB7C1A2AC3EB0041AC98 /* ZTCaptchaField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB731A2AC3EB0041AC98 /* ZTCaptchaField.m */; };
+		3187DB7D1A2AC3EB0041AC98 /* ZTLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB751A2AC3EB0041AC98 /* ZTLoginButton.m */; };
+		3187DB7E1A2AC3EB0041AC98 /* ZTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB771A2AC3EB0041AC98 /* ZTLoginController.m */; };
+		3187DB7F1A2AC3EB0041AC98 /* ZTLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB791A2AC3EB0041AC98 /* ZTLoginField.m */; };
+		3187DB801A2AC3EB0041AC98 /* ZTPasswordField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB7B1A2AC3EB0041AC98 /* ZTPasswordField.m */; };
+		3187DB871A2AC3FB0041AC98 /* ZTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB821A2AC3FB0041AC98 /* ZTParser.m */; };
+		3187DB881A2AC3FB0041AC98 /* ZTRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB841A2AC3FB0041AC98 /* ZTRequester.m */; };
+		3187DB891A2AC3FB0041AC98 /* ZTZhyk.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB861A2AC3FB0041AC98 /* ZTZhyk.m */; };
 		31EB99E11A00C9A900ACF27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99E01A00C9A900ACF27D /* main.m */; };
 		31EB99E41A00C9A900ACF27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99E31A00C9A900ACF27D /* AppDelegate.m */; };
 		31EB99EA1A00C9A900ACF27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EB99E81A00C9A900ACF27D /* Main.storyboard */; };
 		31EB99FB1A00C9A900ACF27D /* iZhykTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99FA1A00C9A900ACF27D /* iZhykTests.m */; };
-		31EB9A071A00CA0600ACF27D /* ZTZhyk.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB9A061A00CA0600ACF27D /* ZTZhyk.m */; };
 		31F2A7881A2895CC00AA0881 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F2A7871A2895CC00AA0881 /* Images.xcassets */; };
-		31F347F51A245CA7004A2045 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F347F31A245CA7004A2045 /* logo@2x.png */; };
-		31F347F61A245CA7004A2045 /* update_captcha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F347F41A245CA7004A2045 /* update_captcha@2x.png */; };
-		31F347FA1A248AFE004A2045 /* ZTChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F347F91A248AFE004A2045 /* ZTChatController.m */; };
-		31F348011A25FE1E004A2045 /* ZTSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F348001A25FE1E004A2045 /* ZTSettingsController.m */; };
-		31F434A11A22234100DBF480 /* ZTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F434A01A22234100DBF480 /* ZTLoginController.m */; };
-		31F434A41A223E2500DBF480 /* ZTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F434A31A223E2500DBF480 /* ZTParser.m */; };
 		6F983615277BDB51059DCDA3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C7FADBC6035FAE751C4DA3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -38,16 +38,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		311395151A221AB20048C5F4 /* ZTRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTRequester.h; sourceTree = "<group>"; };
-		311395161A221AB20048C5F4 /* ZTRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTRequester.m; sourceTree = "<group>"; };
-		311EBF011A23F182000CC067 /* ZTLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTLoginButton.h; sourceTree = "<group>"; };
-		311EBF021A23F182000CC067 /* ZTLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTLoginButton.m; sourceTree = "<group>"; };
-		311EBF041A23F28A000CC067 /* ZTLoginField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTLoginField.h; sourceTree = "<group>"; };
-		311EBF051A23F28A000CC067 /* ZTLoginField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTLoginField.m; sourceTree = "<group>"; };
-		311EBF071A23F3B5000CC067 /* ZTPasswordField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTPasswordField.h; sourceTree = "<group>"; };
-		311EBF081A23F3B5000CC067 /* ZTPasswordField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTPasswordField.m; sourceTree = "<group>"; };
-		311EBF0A1A23F432000CC067 /* ZTCaptchaField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTCaptchaField.h; sourceTree = "<group>"; };
-		311EBF0B1A23F432000CC067 /* ZTCaptchaField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTCaptchaField.m; sourceTree = "<group>"; };
+		3187DB681A2AC3B50041AC98 /* ZTSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTSettingsController.h; path = iZhyk/Settings/ZTSettingsController.h; sourceTree = "<group>"; };
+		3187DB691A2AC3B50041AC98 /* ZTSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTSettingsController.m; path = iZhyk/Settings/ZTSettingsController.m; sourceTree = "<group>"; };
+		3187DB6B1A2AC3C90041AC98 /* ZTChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTChatController.h; path = iZhyk/Chat/ZTChatController.h; sourceTree = "<group>"; };
+		3187DB6C1A2AC3C90041AC98 /* ZTChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTChatController.m; path = iZhyk/Chat/ZTChatController.m; sourceTree = "<group>"; };
+		3187DB6E1A2AC3DC0041AC98 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "iZhyk/img/logo@2x.png"; sourceTree = "<group>"; };
+		3187DB6F1A2AC3DC0041AC98 /* update_captcha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "update_captcha@2x.png"; path = "iZhyk/img/update_captcha@2x.png"; sourceTree = "<group>"; };
+		3187DB721A2AC3EB0041AC98 /* ZTCaptchaField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTCaptchaField.h; path = iZhyk/Login/ZTCaptchaField.h; sourceTree = "<group>"; };
+		3187DB731A2AC3EB0041AC98 /* ZTCaptchaField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTCaptchaField.m; path = iZhyk/Login/ZTCaptchaField.m; sourceTree = "<group>"; };
+		3187DB741A2AC3EB0041AC98 /* ZTLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTLoginButton.h; path = iZhyk/Login/ZTLoginButton.h; sourceTree = "<group>"; };
+		3187DB751A2AC3EB0041AC98 /* ZTLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTLoginButton.m; path = iZhyk/Login/ZTLoginButton.m; sourceTree = "<group>"; };
+		3187DB761A2AC3EB0041AC98 /* ZTLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTLoginController.h; path = iZhyk/Login/ZTLoginController.h; sourceTree = "<group>"; };
+		3187DB771A2AC3EB0041AC98 /* ZTLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTLoginController.m; path = iZhyk/Login/ZTLoginController.m; sourceTree = "<group>"; };
+		3187DB781A2AC3EB0041AC98 /* ZTLoginField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTLoginField.h; path = iZhyk/Login/ZTLoginField.h; sourceTree = "<group>"; };
+		3187DB791A2AC3EB0041AC98 /* ZTLoginField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTLoginField.m; path = iZhyk/Login/ZTLoginField.m; sourceTree = "<group>"; };
+		3187DB7A1A2AC3EB0041AC98 /* ZTPasswordField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTPasswordField.h; path = iZhyk/Login/ZTPasswordField.h; sourceTree = "<group>"; };
+		3187DB7B1A2AC3EB0041AC98 /* ZTPasswordField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTPasswordField.m; path = iZhyk/Login/ZTPasswordField.m; sourceTree = "<group>"; };
+		3187DB811A2AC3FB0041AC98 /* ZTParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTParser.h; path = iZhyk/utils/ZTParser.h; sourceTree = "<group>"; };
+		3187DB821A2AC3FB0041AC98 /* ZTParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTParser.m; path = iZhyk/utils/ZTParser.m; sourceTree = "<group>"; };
+		3187DB831A2AC3FB0041AC98 /* ZTRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTRequester.h; path = iZhyk/utils/ZTRequester.h; sourceTree = "<group>"; };
+		3187DB841A2AC3FB0041AC98 /* ZTRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTRequester.m; path = iZhyk/utils/ZTRequester.m; sourceTree = "<group>"; };
+		3187DB851A2AC3FB0041AC98 /* ZTZhyk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTZhyk.h; path = iZhyk/utils/ZTZhyk.h; sourceTree = "<group>"; };
+		3187DB861A2AC3FB0041AC98 /* ZTZhyk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTZhyk.m; path = iZhyk/utils/ZTZhyk.m; sourceTree = "<group>"; };
 		31EB99DB1A00C9A900ACF27D /* iZhyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZhyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB99DF1A00C9A900ACF27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EB99E01A00C9A900ACF27D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,19 +69,7 @@
 		31EB99F41A00C9A900ACF27D /* iZhykTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iZhykTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB99F91A00C9A900ACF27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EB99FA1A00C9A900ACF27D /* iZhykTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iZhykTests.m; sourceTree = "<group>"; };
-		31EB9A051A00CA0600ACF27D /* ZTZhyk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTZhyk.h; sourceTree = "<group>"; };
-		31EB9A061A00CA0600ACF27D /* ZTZhyk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTZhyk.m; sourceTree = "<group>"; };
 		31F2A7871A2895CC00AA0881 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		31F347F31A245CA7004A2045 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "img/logo@2x.png"; sourceTree = "<group>"; };
-		31F347F41A245CA7004A2045 /* update_captcha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "update_captcha@2x.png"; path = "img/update_captcha@2x.png"; sourceTree = "<group>"; };
-		31F347F81A248AFE004A2045 /* ZTChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTChatController.h; sourceTree = "<group>"; };
-		31F347F91A248AFE004A2045 /* ZTChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTChatController.m; sourceTree = "<group>"; };
-		31F347FF1A25FE1E004A2045 /* ZTSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSettingsController.h; sourceTree = "<group>"; };
-		31F348001A25FE1E004A2045 /* ZTSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSettingsController.m; sourceTree = "<group>"; };
-		31F4349F1A22234100DBF480 /* ZTLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTLoginController.h; sourceTree = "<group>"; };
-		31F434A01A22234100DBF480 /* ZTLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTLoginController.m; sourceTree = "<group>"; };
-		31F434A21A223E2500DBF480 /* ZTParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTParser.h; sourceTree = "<group>"; };
-		31F434A31A223E2500DBF480 /* ZTParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTParser.m; sourceTree = "<group>"; };
 		6493442F7859BCF942E46BCC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		86C7FADBC6035FAE751C4DA3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C07F9BC1E83832C241489DD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		311EBF0D1A240C6D000CC067 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				31F347F31A245CA7004A2045 /* logo@2x.png */,
-				31F347F41A245CA7004A2045 /* update_captcha@2x.png */,
+				3187DB6E1A2AC3DC0041AC98 /* logo@2x.png */,
+				3187DB6F1A2AC3DC0041AC98 /* update_captcha@2x.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -169,12 +169,12 @@
 		31EB9A041A00C9BA00ACF27D /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				31EB9A051A00CA0600ACF27D /* ZTZhyk.h */,
-				31EB9A061A00CA0600ACF27D /* ZTZhyk.m */,
-				311395151A221AB20048C5F4 /* ZTRequester.h */,
-				311395161A221AB20048C5F4 /* ZTRequester.m */,
-				31F434A21A223E2500DBF480 /* ZTParser.h */,
-				31F434A31A223E2500DBF480 /* ZTParser.m */,
+				3187DB811A2AC3FB0041AC98 /* ZTParser.h */,
+				3187DB821A2AC3FB0041AC98 /* ZTParser.m */,
+				3187DB831A2AC3FB0041AC98 /* ZTRequester.h */,
+				3187DB841A2AC3FB0041AC98 /* ZTRequester.m */,
+				3187DB851A2AC3FB0041AC98 /* ZTZhyk.h */,
+				3187DB861A2AC3FB0041AC98 /* ZTZhyk.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -182,8 +182,8 @@
 		31F347F71A248AD7004A2045 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				31F347F81A248AFE004A2045 /* ZTChatController.h */,
-				31F347F91A248AFE004A2045 /* ZTChatController.m */,
+				3187DB6B1A2AC3C90041AC98 /* ZTChatController.h */,
+				3187DB6C1A2AC3C90041AC98 /* ZTChatController.m */,
 			);
 			name = Chat;
 			sourceTree = "<group>";
@@ -191,8 +191,8 @@
 		31F347FB1A25FDD8004A2045 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				31F347FF1A25FE1E004A2045 /* ZTSettingsController.h */,
-				31F348001A25FE1E004A2045 /* ZTSettingsController.m */,
+				3187DB681A2AC3B50041AC98 /* ZTSettingsController.h */,
+				3187DB691A2AC3B50041AC98 /* ZTSettingsController.m */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -200,16 +200,16 @@
 		31F4349E1A22231D00DBF480 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				31F4349F1A22234100DBF480 /* ZTLoginController.h */,
-				31F434A01A22234100DBF480 /* ZTLoginController.m */,
-				311EBF011A23F182000CC067 /* ZTLoginButton.h */,
-				311EBF021A23F182000CC067 /* ZTLoginButton.m */,
-				311EBF041A23F28A000CC067 /* ZTLoginField.h */,
-				311EBF051A23F28A000CC067 /* ZTLoginField.m */,
-				311EBF071A23F3B5000CC067 /* ZTPasswordField.h */,
-				311EBF081A23F3B5000CC067 /* ZTPasswordField.m */,
-				311EBF0A1A23F432000CC067 /* ZTCaptchaField.h */,
-				311EBF0B1A23F432000CC067 /* ZTCaptchaField.m */,
+				3187DB721A2AC3EB0041AC98 /* ZTCaptchaField.h */,
+				3187DB731A2AC3EB0041AC98 /* ZTCaptchaField.m */,
+				3187DB741A2AC3EB0041AC98 /* ZTLoginButton.h */,
+				3187DB751A2AC3EB0041AC98 /* ZTLoginButton.m */,
+				3187DB761A2AC3EB0041AC98 /* ZTLoginController.h */,
+				3187DB771A2AC3EB0041AC98 /* ZTLoginController.m */,
+				3187DB781A2AC3EB0041AC98 /* ZTLoginField.h */,
+				3187DB791A2AC3EB0041AC98 /* ZTLoginField.m */,
+				3187DB7A1A2AC3EB0041AC98 /* ZTPasswordField.h */,
+				3187DB7B1A2AC3EB0041AC98 /* ZTPasswordField.m */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -314,10 +314,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3187DB711A2AC3DC0041AC98 /* update_captcha@2x.png in Resources */,
 				31EB99EA1A00C9A900ACF27D /* Main.storyboard in Resources */,
+				3187DB701A2AC3DC0041AC98 /* logo@2x.png in Resources */,
 				31F2A7881A2895CC00AA0881 /* Images.xcassets in Resources */,
-				31F347F51A245CA7004A2045 /* logo@2x.png in Resources */,
-				31F347F61A245CA7004A2045 /* update_captcha@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,18 +368,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				311EBF031A23F182000CC067 /* ZTLoginButton.m in Sources */,
-				311395171A221AB20048C5F4 /* ZTRequester.m in Sources */,
-				311EBF091A23F3B5000CC067 /* ZTPasswordField.m in Sources */,
-				311EBF0C1A23F432000CC067 /* ZTCaptchaField.m in Sources */,
-				31F348011A25FE1E004A2045 /* ZTSettingsController.m in Sources */,
+				3187DB871A2AC3FB0041AC98 /* ZTParser.m in Sources */,
+				3187DB881A2AC3FB0041AC98 /* ZTRequester.m in Sources */,
+				3187DB7E1A2AC3EB0041AC98 /* ZTLoginController.m in Sources */,
 				31EB99E41A00C9A900ACF27D /* AppDelegate.m in Sources */,
-				31F434A41A223E2500DBF480 /* ZTParser.m in Sources */,
-				311EBF061A23F28A000CC067 /* ZTLoginField.m in Sources */,
+				3187DB801A2AC3EB0041AC98 /* ZTPasswordField.m in Sources */,
+				3187DB6A1A2AC3B50041AC98 /* ZTSettingsController.m in Sources */,
 				31EB99E11A00C9A900ACF27D /* main.m in Sources */,
-				31EB9A071A00CA0600ACF27D /* ZTZhyk.m in Sources */,
-				31F347FA1A248AFE004A2045 /* ZTChatController.m in Sources */,
-				31F434A11A22234100DBF480 /* ZTLoginController.m in Sources */,
+				3187DB891A2AC3FB0041AC98 /* ZTZhyk.m in Sources */,
+				3187DB7F1A2AC3EB0041AC98 /* ZTLoginField.m in Sources */,
+				3187DB7D1A2AC3EB0041AC98 /* ZTLoginButton.m in Sources */,
+				3187DB7C1A2AC3EB0041AC98 /* ZTCaptchaField.m in Sources */,
+				3187DB6D1A2AC3C90041AC98 /* ZTChatController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
