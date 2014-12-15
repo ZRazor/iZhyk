@@ -72,7 +72,7 @@
 
 +(NSString *)parseUserId:(NSString *)html
 {
-    return [ZTParser parseFirstMatch:html pattern:@"vbmenu_option.*?u=(.*?)[&|\"]"];
+    return [ZTParser parseFirstMatch:html pattern:@"Добро пожаловать, <a href=\"member.*?=(.*?)\""];
 }
 
 +(NSString *)parseUserLogin:(NSString *)html
@@ -114,7 +114,7 @@
 {
     NSMutableArray* result = [NSMutableArray array];
     @try {
-        NSArray* texts = [ZTParser parseAllMatch:html pattern:@"<td style=.*?>(.*?)</td>"];
+        NSArray* texts = [ZTParser parseAllMatch:html pattern:@"<tr valign=.*?<td style=.*?>(.*?)</td>"];
         NSArray* authors = [ZTParser parseAllMatch:html pattern:@";<a href=\"member.php.*?>(.*?)</a>"];
         NSArray* authorIds = [ZTParser parseAllMatch:html pattern:@";<a href=\"member.php.*?=(.*?)\""];
         NSArray* msgIds = [ZTParser parseAllMatch:html pattern:@"misc.php\\?ccbloc=(.*?)\""];

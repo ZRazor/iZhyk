@@ -83,7 +83,6 @@
     _passwordField.enabled = !activate;
     if (activate) {
         loginActivity = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-        loginActivity.center = _loginButton.center;
         loginActivity.center = CGPointMake(self.view.center.x, _loginButton.center.y);
         [self.view addSubview:loginActivity];
         [loginActivity startAnimating];
