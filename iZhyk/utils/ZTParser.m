@@ -142,67 +142,75 @@
     NSMutableArray *smilesToReplace = [NSMutableArray array];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"images/smilies/trololo/parrot2.gif\" border=\"0\" alt=\"\" title=\"Parrot\" class=\"inlineimg\" />",
-                                 @"name":@"/bonk"
+                                 @"name":@" /bonk "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/crabe.png\" border=\"0\" alt=\"\" title=\"Crabe\" class=\"inlineimg\" />",
-                                 @"name":@":crabe:"
+                                 @"name":@" :crabe: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"images/smilies/trololo/poptartFINALTINY.gif\" border=\"0\" alt=\"\" title=\"nyaa\" class=\"inlineimg\" />",
-                                 @"name":@"/nyan"
+                                 @"name":@" /nyan "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/w/emolol.gif\" border=\"0\" alt=\"\" title=\"Emolol\" class=\"inlineimg\" />",
-                                 @"name":@":emobol:"
+                                 @"name":@" :emobol: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/z/cry.gif\" border=\"0\" alt=\"\" title=\"Cry\" class=\"inlineimg\" />",
-                                 @"name":@":cry:"
+                                 @"name":@" :cry: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/bayan.gif\" border=\"0\" alt=\"\" title=\"Bayan\" class=\"inlineimg\" />",
-                                 @"name":@":bayan:"
+                                 @"name":@" :bayan: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"images/smilies/trololo/fthat.png\" border=\"0\" alt=\"\" title=\"Не говори глупостей\" class=\"inlineimg\" />",
-                                 @"name":@"/dgs"
+                                 @"name":@" /dgs "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"images/smilies/trololo/okay.png\" border=\"0\" alt=\"\" title=\"okay\" class=\"inlineimg\" />",
-                                 @"name":@"/okay"
+                                 @"name":@" /okay "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/w/bow.gif\" border=\"0\" alt=\"\" title=\"Bow\" class=\"inlineimg\" />",
-                                 @"name":@":bow:"
+                                 @"name":@" :bow: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/x/bl.gif\" border=\"0\" alt=\"\" title=\"Bl\" class=\"inlineimg\" />",
-                                 @"name":@":bl:"
+                                 @"name":@" :bl: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/y/ban.gif\" border=\"0\" alt=\"\" title=\"Ban\" class=\"inlineimg\" /> ",
-                                 @"name":@":ban:"
+                                 @"name":@" :ban: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/y/gordon.gif\" border=\"0\" alt=\"\" title=\"Gordon\" class=\"inlineimg\" />",
-                                 @"name":@":godron:"
+                                 @"name":@" :godron: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"images/smilies/trololo/drhouse.gif\" border=\"0\" alt=\"\" title=\"Drhouse\" class=\"inlineimg\" />",
-                                 @"name":@"/md"
+                                 @"name":@" /md "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"images/smilies/trololo/elefant.gif\" border=\"0\" alt=\"\" title=\"Elefant\" class=\"inlineimg\" />",
-                                 @"name":@":elefant:"
+                                 @"name":@" :elefant: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/y/pandal.gif\" border=\"0\" alt=\"\" title=\"Pandal\" class=\"inlineimg\" />",
-                                 @"name":@":pandal:"
+                                 @"name":@" :pandal: "
                                  }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/biggrin.gif\" border=\"0\" alt=\"\" title=\"Big Grin\" class=\"inlineimg\" />",
-                                 @"name":@":D"
+                                 @"name":@" :D "
+                                 }];
+    [smilesToReplace addObject:@{
+                                 @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/redface.gif\" border=\"0\" alt=\"\" title=\"Embarrassment\" class=\"inlineimg\" />",
+                                 @"name":@" :o "
+                                 }];
+    [smilesToReplace addObject:@{
+                                 @"tag":@"<img src=\"http://static-cdn.jtvnw.net/emoticons/v1/25/1.0\" border=\"0\" alt=\"\" title=\"Kappa\" class=\"inlineimg\" />",
+                                 @"name":@" GreyFaec "
                                  }];
     for (NSDictionary* dict in smilesToReplace) {
         newHtml = [newHtml stringByReplacingOccurrencesOfString:dict[@"tag"] withString:dict[@"name"]];

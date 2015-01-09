@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     if ([[NSUserDefaults standardUserDefaults] doubleForKey:@"updateTimerInterval"] <= 0) {
-        [[NSUserDefaults standardUserDefaults] setFloat:2.0 forKey:@"updateTimerInterval"];
+        [[NSUserDefaults standardUserDefaults] setFloat:3.0 forKey:@"updateTimerInterval"];
     }
     
     UIColor *mainColor;
