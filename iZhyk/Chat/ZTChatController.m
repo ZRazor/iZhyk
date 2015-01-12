@@ -82,6 +82,13 @@
                     JSQMessage *jmsg = [JSQMessage messageWithSenderId:msg[@"authorId"] displayName:[ NSString stringWithFormat:@"%@ - %@", msg[@"time"], msg[@"author"]] text:msg[@"text"]];
                     [messages addObject:jmsg];
                 }
+                
+                JSQPhotoMediaItem *photoItem = [[JSQPhotoMediaItem alloc] initWithImage:[UIImage imageNamed:@"parrot2.gif"]];
+                JSQMessage *photoMessage = [JSQMessage messageWithSenderId:zhyk.userId
+                                                               displayName:@"MediaMan"
+                                                                     media:photoItem];
+                [messages addObject:photoMessage];
+                
 //                [self.collectionView reloadData];
                 [self finishReceivingMessage];
             }
@@ -281,6 +288,8 @@
         
         cell.textView.linkTextAttributes = @{ NSForegroundColorAttributeName : cell.textView.textColor,
                                               NSUnderlineStyleAttributeName : @(NSUnderlineStyleSingle | NSUnderlinePatternSolid) };
+    } else {
+        [cell.mediaView sizeToFit];
     }
     
     return cell;

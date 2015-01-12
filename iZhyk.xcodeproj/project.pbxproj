@@ -19,6 +19,8 @@
 		3187DB871A2AC3FB0041AC98 /* ZTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB821A2AC3FB0041AC98 /* ZTParser.m */; };
 		3187DB881A2AC3FB0041AC98 /* ZTRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB841A2AC3FB0041AC98 /* ZTRequester.m */; };
 		3187DB891A2AC3FB0041AC98 /* ZTZhyk.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187DB861A2AC3FB0041AC98 /* ZTZhyk.m */; };
+		31E1CB9C1A63BEDD0021F2DB /* fthat.png in Resources */ = {isa = PBXBuildFile; fileRef = 31E1CB9B1A63BEDD0021F2DB /* fthat.png */; };
+		31E1CB9E1A63F4400021F2DB /* parrot2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 31E1CB9D1A63F4400021F2DB /* parrot2.gif */; };
 		31EB99E11A00C9A900ACF27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99E01A00C9A900ACF27D /* main.m */; };
 		31EB99E41A00C9A900ACF27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB99E31A00C9A900ACF27D /* AppDelegate.m */; };
 		31EB99EA1A00C9A900ACF27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EB99E81A00C9A900ACF27D /* Main.storyboard */; };
@@ -60,6 +62,8 @@
 		3187DB841A2AC3FB0041AC98 /* ZTRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTRequester.m; path = iZhyk/utils/ZTRequester.m; sourceTree = "<group>"; };
 		3187DB851A2AC3FB0041AC98 /* ZTZhyk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTZhyk.h; path = iZhyk/utils/ZTZhyk.h; sourceTree = "<group>"; };
 		3187DB861A2AC3FB0041AC98 /* ZTZhyk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTZhyk.m; path = iZhyk/utils/ZTZhyk.m; sourceTree = "<group>"; };
+		31E1CB9B1A63BEDD0021F2DB /* fthat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fthat.png; sourceTree = "<group>"; };
+		31E1CB9D1A63F4400021F2DB /* parrot2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = parrot2.gif; sourceTree = "<group>"; };
 		31EB99DB1A00C9A900ACF27D /* iZhyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZhyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB99DF1A00C9A900ACF27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EB99E01A00C9A900ACF27D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,9 +107,20 @@
 			name = img;
 			sourceTree = "<group>";
 		};
+		31E1CB9A1A63BECD0021F2DB /* smiles */ = {
+			isa = PBXGroup;
+			children = (
+				31E1CB9D1A63F4400021F2DB /* parrot2.gif */,
+				31E1CB9B1A63BEDD0021F2DB /* fthat.png */,
+			);
+			name = smiles;
+			path = iZhyk/smiles;
+			sourceTree = "<group>";
+		};
 		31EB99D21A00C9A900ACF27D = {
 			isa = PBXGroup;
 			children = (
+				31E1CB9A1A63BECD0021F2DB /* smiles */,
 				31F347FB1A25FDD8004A2045 /* Settings */,
 				31F347F71A248AD7004A2045 /* Chat */,
 				311EBF0D1A240C6D000CC067 /* img */,
@@ -317,7 +332,9 @@
 				3187DB711A2AC3DC0041AC98 /* update_captcha@2x.png in Resources */,
 				31EB99EA1A00C9A900ACF27D /* Main.storyboard in Resources */,
 				3187DB701A2AC3DC0041AC98 /* logo@2x.png in Resources */,
+				31E1CB9C1A63BEDD0021F2DB /* fthat.png in Resources */,
 				31F2A7881A2895CC00AA0881 /* Images.xcassets in Resources */,
+				31E1CB9E1A63F4400021F2DB /* parrot2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
