@@ -8,6 +8,7 @@
 
 #import "ZTChatController.h"
 #import "ZTZhyk.h"
+#import "SVWebViewController.h"
 
 @implementation ZTChatController {
     NSMutableArray* messages;
@@ -236,12 +237,22 @@
     return 0.0f;
 }
 
+- (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange
+{
+    SVWebViewController *webViewController = [[SVWebViewController alloc] initWithAddress:[URL absoluteString]];
+    [self.navigationController pushViewController:webViewController animated:YES];
+    
+    return NO;
+}
+
 - (UICollectionViewCell *)collectionView:(JSQMessagesCollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     /**
      *  Override point for customizing cells
      */
     JSQMessagesCollectionViewCell *cell = (JSQMessagesCollectionViewCell *)[super collectionView:collectionView cellForItemAtIndexPath:indexPath];
+    
+    cell.textView.delegate = self;
     
     /**
      *  Configure almost *anything* on the cell
