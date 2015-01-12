@@ -22,7 +22,7 @@
     
     NSRange matchRange = [textCheckingResult rangeAtIndex:1];
     NSString *match = [html substringWithRange:matchRange];
-    NSLog(@"Found string '%@'", match);
+//    NSLog(@"Found string '%@'", match);
     return match;
 
 }
@@ -140,6 +140,14 @@
 {
     NSString* newHtml = [NSString stringWithString:html];
     NSMutableArray *smilesToReplace = [NSMutableArray array];
+    [smilesToReplace addObject:@{
+                                 @"tag":@"<img src=\"http://zhyk.ru/forum/images/smilies/z/sceptic.gif\" border=\"0\" alt=\"\" title=\"Sceptic\" class=\"inlineimg\" />",
+                                 @"name":@" :sceptic: "
+                                 }];
+    [smilesToReplace addObject:@{
+                                 @"tag":@"<img src=\"images/smilies/trololo/Horror.png\" border=\"0\" alt=\"\" title=\"horror\" class=\"inlineimg\" />",
+                                 @"name":@" /horror "
+                                 }];
     [smilesToReplace addObject:@{
                                  @"tag":@"<img src=\"images/smilies/trololo/parrot2.gif\" border=\"0\" alt=\"\" title=\"Parrot\" class=\"inlineimg\" />",
                                  @"name":@" /bonk "

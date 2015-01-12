@@ -280,7 +280,7 @@
                     }
                 }];
             } else {
-                NSLog(@"%@",pageHtml);
+//                NSLog(@"%@",pageHtml);
                 pageHtml = [ZTParser replaceSmiles:[ZTParser stringByDecodingXMLEntities:pageHtml]];
                 NSArray* newMessages = [ZTParser parseMessages:pageHtml];
                 if ([newMessages count] > 0) {
